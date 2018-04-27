@@ -7,7 +7,7 @@ public class WallMoving : MonoBehaviour {
     public Transform[] target;
     public float speed;
     public float timer;
-    public float newTarget;
+    public float newTarget=45;
 
     private int current;
 
